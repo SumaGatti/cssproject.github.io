@@ -1,0 +1,98 @@
+.heading{
+    font-family: 'Lucida Sans';
+
+}
+.back{
+    border: 4px black solid;
+    background-color: tomato;
+}
+.underline{
+    text-decoration: none;
+}
+.container{
+    position: relative;
+    text-align: center;
+    color: white;
+}
+.center{
+    position: absolute;
+    top: 510px;
+    left: 300px;
+    font-size: 40px;
+    font-style: italic;
+    color: rgb(223, 94, 197);
+    animation-name: animie;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+.bcenter{
+    text-decoration: none;
+    position:absolute;
+    top:590px;
+    left:590px;
+    font-size:25px ;
+    color: rgb(197, 28, 28);
+    animation-name: anim;
+    animation-duration: 2s;
+    animation-delay: 3s;
+    
+}
+@keyframes animie{
+    from{font-size: 30px;}to{font-size: 40px;}
+    from{color: bisque;}to{color: blue;}
+}
+@keyframes anim{
+    from{font-size: 20px;} to{font-size: 25px;}
+
+}
+.b1{
+    border: 3px ridge gray;
+    margin-right: 30px;
+}
+.b2{
+    border: 3px solid brown;
+}
+.thanks{
+    position: relative;
+    text-align: center;
+    color: black;
+    background-color: rgb(255, 0, 4);
+    font-size: 40px;
+    animation-name: thank;
+    animation-duration:5s;
+    margin-top: 250px;
+}
+.bg{
+    background-color: aqua;
+}
+@keyframes thank{
+    from{font-size: 25px;}to{font-size: 45px;}
+    from{color: black;}to{color: red;}
+}
+.underline:hover{
+   font-size: 120%;
+   color:palevioletred;
+   background-color: coral;
+
+}
+#evnt{
+    border: 6px ridge black;
+}
+#tab{
+    border: 5px solid palevioletred;
+}
+.bord{
+    border: 3px dashed palevioletred;
+}
+.b3{
+    border: 3px darkgreen dashed;
+}
+.donate{
+    border: 4px ridge #33ccff;
+}
+.don{
+    border: ridge 6px #33ccff;
+}
+.done:hover{
+    background-color: red;
+}
